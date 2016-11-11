@@ -12,6 +12,24 @@
     Kids Swim University is the ultimate resource for supplementing your child(ren)'s swim lessons.">
   <base target="_self" href="https://Kids-Swim.github.io/">
 </head>
+
+<style>
+div.rounded {
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+p.rounded {
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+pre {
+    display: block;
+    font-family: verdana;
+    white-space: pre;
+    margin: 1em 0;
+}
+</style>
+
 <body>
   <h1>Kids Swim University</h1>
   <br>
@@ -22,27 +40,29 @@
   <h2>(Be sure to check back in the next few months for opportunities for free content.)</h2>
   <br>
 
-  <p>Test Area 1</p>
-  <p>(Do not put sensitive information here.)</p>
-  <form name="input" target="_blank" action="html_form_submit.asp" method="get">
-  <input type="text" value="Test Input" name="text" size="30" />
-  <input type="submit" value="Submit" />
-  </form>
+  <div class="rounded">
+    <h3>Test Area 1</h3>
+    <p>(Do not put sensitive information here.)</p>
+    <form name="input" target="_blank" action="html_form_submit.asp" method="get">
+    <input type="text" value="Test Input 1" name="text" size="30" />
+    <input type="submit" value="Submit" />
+    </form>
+  </div>
   <br>
 
-  <p>(Requires form handler to actually return a page with content.)</p>
+  <div class="rounded">
+    <h3>Test Area 2</h3>
+    <p>(May put sensitive information here.)</p>
+    <form name="input" target="_blank" action="html_form_submit.asp" method="post">
+    <input type="text" value="Test Input 2" name="text" size="30" />
+    <input type="submit" value="Submit" />
+    </form>
+  </div>
+  <br>
+
+  <p class="rounded">(Requires form handler to actually return a page with content.)</p>
   <br>
   
-  <p>Test Area 2</p>
-  <p>(May put sensitive information here.)</p>
-  <form name="input" target="_blank" action="html_form_submit.asp" method="post">
-  <input type="text" value="Test Input" name="text" size="30" />
-  <input type="submit" value="Submit" />
-  </form>
-  <br>
-
-  <pre>
-  Copyright © 2016 Kids Swim University | All rights reserved.
-  </pre>
+  <pre>Copyright © 2016 Kids Swim University | All rights reserved.</pre>
 </body>
 </html>
