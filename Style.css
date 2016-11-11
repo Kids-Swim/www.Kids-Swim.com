@@ -1,4 +1,4 @@
-h1.title {
+div.header {
     background-color: rgb(127,127,255);
     color: white;
     font-family: verdana;
@@ -28,7 +28,7 @@ div.container {
     margin: 25px;
     padding: 0 25px;
 }
-pre {
+div.footer {
     background-color: rgb(127,127,255);
     color: white;
     font-family: verdana;
