@@ -15,17 +15,12 @@
 
 <style>
 div.container {
-    border: 2px solid gray;
+    border: 1px solid gray;
     border-radius: 5px;
-    padding: 5px;
-}
-p.rounded {
-    border: 2px solid gray;
-    border-radius: 5px;
-    padding: 5px;
+    margin: 25px;
+    padding: 25px;
 }
 pre {
-    display: block;
     font-family: verdana;
 }
 </style>
@@ -42,10 +37,12 @@ pre {
 
   <div class="container">
     <h3>Test Area 1</h3>
-    <p>(Do not put sensitive information here.)</p>
+    <p>Do not put sensitive information here.</p>
     <form name="input" target="_blank" action="html_form_submit.asp" method="get">
     <input type="text" value="Test Input 1" name="text" size="30" />
     <input type="submit" value="Submit" />
+    <p>(Requires form handler to actually return a page with content.)</p>
+    <br>
     </form>
   </div>
   <br>
@@ -57,11 +54,12 @@ pre {
     <input type="text" value="Test Input 2" name="text" size="30" />
     <input type="submit" value="Submit" />
     </form>
+    <p>(Requires form handler to actually return a page with content.)</p>
+    <br>
   </div>
   <br>
 
-  <p class="rounded">(Requires form handler to actually return a page with content.)</p>
-  <br>
+
   
   <pre>Copyright © 2016 Kids Swim University | All rights reserved.</pre>
 </body>
