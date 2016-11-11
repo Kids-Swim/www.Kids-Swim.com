@@ -1,3 +1,7 @@
+h1.title {
+    background-color: rgb(127,127,255);
+    color: white;
+}
 input.search[type=text] {
     width: 130px;
     box-sizing: border-box;
@@ -22,5 +26,7 @@ div.container {
     padding: 0 25px;
 }
 pre {
+    background-color: rgb(127,127,255);
+    color: white;
     font-family: verdana;
 }
