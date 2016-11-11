@@ -1,6 +1,9 @@
 h1.title {
     background-color: rgb(127,127,255);
     color: white;
+    font-family: verdana;
+    margin: 25px;
+    padding: 25px;
 }
 input.search[type=text] {
     width: 130px;
@@ -29,4 +32,6 @@ pre {
     background-color: rgb(127,127,255);
     color: white;
     font-family: verdana;
+    margin: 25px;
+    padding: 25px;
 }
