@@ -1,4 +1,5 @@
 div.header {
+    border: 1px solid rgb(0,0,127);
     background-color: rgb(127,127,255);
     color: white;
     font-family: verdana;
