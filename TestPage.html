@@ -1,12 +1,15 @@
 <!-- Basic Elements -->
 <!DOCTYPE html>
 <html lang="en-US">
-  <script type="text/javascript"> var domain = "kids-swim.github.io"; 
-    var redirect = "https://kids-swim.com/TestPage.html"; 
-    if( (location.hostname != domain) && 
-       (location.hostname != "www."+domain) 
-      ) { location.href = redirect; } 
-  </script>
+  
+<script type="text/javascript">
+var domain = "<?php echo(preg_replace('/^www\./','',$_SERVER['HTTP_HOST'])); ?>";
+var redirect = "<?php echo(((isset($_SERVER['HTTPS']) and preg_match('/^on|true|1$/i',$_SERVER['HTTPS']) )?'https://':'http://').$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']); ?>";
+if( (location.hostname != domain) && 
+    (location.hostname != "www."+domain) 
+  ) { location.href = redirect; }
+</script>
+
 <head>
   <meta charset='utf-8'>
   <link rel="icon" href="https://Kids-Swim.github.io/Kids-Swim/Icon32B.ico" type="image/ico" sizes="32x32">
