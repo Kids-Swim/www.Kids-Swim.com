@@ -8,6 +8,9 @@ div.header {
     font-family: verdana;
     padding: 15px;
 }
+
+
+
 /*
 input.search[type=text] {
     width: 130px;
@@ -27,6 +30,9 @@ input.search[type=text]:focus {
     width: 100%;
 }
 */
+
+
+
 div.pad {
     margin: 25px;
 }
@@ -37,6 +43,9 @@ div.container {
     padding: 0 25px;
 }
 */
+
+
+
 .button {
     background-color: #7F7FFF;
     border: none;
@@ -54,6 +63,49 @@ div.container {
 .buttonshadow:hover {
     box-shadow: 0 10px 15px 0 rgba(0,0,0,0.25),0 5px 10px 0 rgba(0,0,0,0.15);
 }
+
+
+
+button.accordion {
+    background-color: rgb(127,127,255);
+    color: white;
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+button.accordion.active, button.accordion:hover {
+    background-color: rgb(191,191,255);
+}
+button.accordion:after {
+    content: '\02795';
+    font-size: 15px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+button.accordion.active:after {
+    content: "\2796";
+}
+div.panel {
+    padding: 0 25px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+
+
 div.footer {
     background-color: rgb(127,127,255);
     color: white;
