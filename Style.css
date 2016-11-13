@@ -84,7 +84,7 @@ button.accordion.active, button.accordion:hover {
 button.accordion:after {
     content: '\02795';
     font-size: 15px;
-    color: #777;
+    color: white;
     float: right;
     margin-left: 5px;
 }
