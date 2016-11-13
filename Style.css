@@ -35,39 +35,21 @@ div.container {
     padding: 0 25px;
 }
 .button {
-    position: relative;
     background-color: #7F7FFF;
     border: none;
     border-radius: 10px;
-    font-size: 20px;
-    color: #FFFFFF;
-    padding: 15px;
-    width: 300px;
+    color: white;
+    padding: 15px 30px;
     text-align: center;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
     text-decoration: none;
-    overflow: hidden;
+    display: inline-block;
+    font-size: 20px;
     cursor: pointer;
+    -webkit-transition-duration: 0.25s; /* Safari */
+    transition-duration: 0.25s;
 }
-.button:after {
-    content: "";
-    background: #90EE90;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
-}
-
-.button:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
+.buttonshadow:hover {
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.25),0 5px 10px 0 rgba(0,0,0,0.15);
 }
 div.footer {
     background-color: rgb(127,127,255);
