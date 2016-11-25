@@ -82,14 +82,14 @@ button.accordion.active, button.accordion:hover {
     background-color: rgb(191,191,255);
 }
 button.accordion:after {
-    content: '\02795';
+    content: '\25BC';
     font-size: 15px;
     color: white;
     float: right;
     margin-left: 5px;
 }
 button.accordion.active:after {
-    content: "\2796";
+    content: '\25B2';
 }
 div.panel {
     padding: 0 25px;
