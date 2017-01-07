@@ -48,7 +48,7 @@ i.e. 1em = 10px, 0.8em = 8px, 1.6em = 16px, etc.
 */
 body 
     { 
-    font: Verdana, sans-serif; 
+    font-family: Verdana, sans-serif;
     /* background: url(/images/wallpaper.png) repeat; */
     color: black;
     text-align: left; 
@@ -139,7 +139,8 @@ td
     color: rgb(0,127,255);
     padding: 1.0em;
     text-align: center;
-    font-size: 6.0em;
+    font-size: 5.0em;
+    font-weight: bold;
 }
 
 
@@ -166,7 +167,7 @@ input.search[type=text]:focus {
 
 
 
-div.pad {
+.pad {
     margin: 1.0em;
 }
 /*
