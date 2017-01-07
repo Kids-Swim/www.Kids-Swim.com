@@ -110,9 +110,16 @@ p {
     top: 0;
     bottom: 0;
     left: 0;
+    width; 6em;
     background-color: rgb(0,0,127);
     color: gold;
     font-weight: bold;
+}
+.content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 6em;
 }
 
 /* Footer
@@ -201,15 +208,23 @@ button.accordion.active:after {
 -----------------------------------------------------------------------------*/
 /* list-style-type: circle|disc|square; */
 ul {
-    /*Goldenrod dots (discs)*/
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+li:before {
+    content: "•";
+    color: gold;
 }
 
 ol {
     /*White numbers in purple dots*/
-}
-
-li {
-    /**/
 }
 
 /* Tables  
