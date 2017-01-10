@@ -106,7 +106,9 @@ p {
 /* Side Navigation Bar
 -----------------------------------------------------------------------------*/
 .sidenav {
-    position: fixed;
+    position: relative;
+    float: left;
+    display: inline-block;
     top: 0;
     bottom: 0;
     left: 0;
@@ -117,6 +119,8 @@ p {
 }
 .content {
     position: relative;
+    float: left;
+    display: inline-block;
     top: 0;
     bottom: 0;
     left: 0;
@@ -125,7 +129,6 @@ p {
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
-    position: absolute;
     bottom: 0;
     background-color: rgb(0,0,127);
     color: rgb(255,127,255);
