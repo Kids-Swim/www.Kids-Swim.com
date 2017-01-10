@@ -119,7 +119,7 @@ p {
 }
 .content {
     position: relative;
-    float: left;
+    float: right;
     display: inline-block;
     top: 0;
     bottom: 0;
